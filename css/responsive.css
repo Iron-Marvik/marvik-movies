@@ -1,0 +1,368 @@
+@media screen and (min-width: 1200px){
+    .display-sm{
+        display: none;
+    }
+
+    .slider{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px){
+    .slider{
+        display: none;
+    }
+
+    .posters-text-big{
+        top:-60px;
+    }
+/*------HEADER-------*/
+
+    .glyphicon-search{
+        left:85%;
+    }
+    .display-sm{
+        display: none;
+    }
+/*------END HEADER-------*/
+
+/*----------UPRISE FORM----------*/
+    .uprise-form{
+        top: 100px;
+    }
+    .uprise-form-content-text{
+        font-size: 24px;
+    }
+
+    .uprise-form-content-link{
+        font-size: 24px;
+    }
+/*----------END UPRISE FORM----------*/
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px){
+.posters{
+    display: none;
+}
+
+/*------HEADER-------*/
+    .header-menu{
+        padding-right: 15px;
+    }
+
+    .header-nav{
+        float: right;
+        padding:15px 0 15px;
+
+    }
+
+    .search{
+        float: left;
+        width: 55%;
+    }
+
+
+    .glyphicon-search{
+        left:75%;
+    }
+
+    .login{
+        width:50px;
+    }
+
+    .display-lg{
+        display: none;
+    }
+/*------END HEADER-------*/
+
+/*----------UPRISE FORM----------*/
+
+    .uprise-form{
+        top: 60px;
+        background-size: cover;
+        height:250px;
+    }
+    .uprise-form-content-text{
+        font-size: 16px;
+        font-weight:600;
+        height:60px;
+        padding:10px 20px;
+        line-height: 1.5;
+    }
+
+    .uprise-form-content-link {
+        font-size: 16px;
+        font-weight:600;
+        height:50px;
+        line-height: 50px;
+    }
+    .uprise-form-content,
+    .uprise-form-content-bg{
+        height:70px;
+        margin-top: 150px;
+    }
+
+    .uprise-form-footer{
+        margin-top: 220px;
+    }
+}
+/*----------END UPRISE FORM----------*/
+
+
+/*-----------------TABLE-----------*/
+.server-align{
+    padding-left:4%;
+}
+/*--------------END TABLE--------------*/
+
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .posters{
+        display: none;
+    }
+
+    .also{
+        text-align: center;
+    }
+
+    .also-link{
+        width:100%;
+    }
+/*------HEADER-------*/
+    .header-logo{
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    .vert{
+        display: none;
+    }
+
+    .header-menu-link {
+        padding-left: 9px;
+        padding-right: 9px;
+        font-family : Oswald-Bold;
+    }
+
+    .header-menu-link:hover {
+        color:rgb(121,193,67);
+        background-color: #fff;
+
+    }
+
+    .header-menu-focus {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .header-menu{
+        text-align: center;
+        padding:0;
+        width:100%;
+    }
+
+
+    .header-nav{
+        float: none;
+        padding:0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .search{
+        width: 85%;
+    }
+
+    .glyphicon-search{
+        left:95%;
+    }
+
+    .login{
+        width:60px;
+    }
+
+    .display-lg{
+        display: none;
+    }
+    .header{
+        height:auto;
+    }
+/*------END HEADER-------*/
+
+/*----------UPRISE FORM----------*/
+
+    .uprise-form{
+        top: 30px;
+        background-size: cover;
+        height:150px;
+        display: block;
+    }
+    .uprise-form-content-text{
+        font-size: 12px;
+        font-weight:600;
+        height:60px;
+        padding:10px 30px;
+        line-height: 1.5;
+    }
+
+    .uprise-form-content-link {
+        font-size: 12px;
+        font-weight:600;
+        height:50px;
+        line-height: 50px;
+    }
+    .uprise-form-content,
+    .uprise-form-content-bg{
+        height:70px;
+        margin-top: 50px;
+    }
+
+    .uprise-form-footer{
+        position: absolute;
+        left: 0;
+        bottom:0;
+    }
+}
+
+/*----------END UPRISE FORM----------*/
+
+/*-----------------TABLE-----------*/
+.server-align{
+    padding-left:4%;
+}
+/*--------------END TABLE--------------*/
+
+/*----------FOOTER---------------*/
+.footer-block-list{
+    padding-left:10%;
+}
+/*--------------END FOOTER--------------*/
+
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .posters{
+        display: none;
+    }
+
+    .also{
+        text-align: center;
+    }
+
+    .also-link{
+        width:100%;
+    }
+/*------HEADER-------*/
+    .header-logo{
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .vert{
+        display: none;
+    }
+
+    .display-lg{
+        display: none;
+    }
+
+    .header{
+       height:auto;
+       background-color: #4c4c4c;
+    }
+
+    .header-menu{
+        padding:0;
+        height:auto;
+    }
+
+    .header-menu-list{
+        display: none;
+    }
+
+    .slicknav_menu{
+        display: block;
+    }
+
+    .header-menu-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-menu-link{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .header-nav{
+        float: none;
+        padding:0;
+        width: 50%;
+        position: absolute;
+        left:30px;
+        top:63px;
+    }
+
+    .search{
+        width:80px;
+    }
+
+    .glyphicon-search{
+        left:80%;
+    }
+/*------END HEADER-------*/
+
+/*----------UPRISE FORM----------*/
+
+    .uprise-form{
+        top: 15px;
+        background-size: cover;
+        height:100px;
+        display: block;
+    }
+    .uprise-form-content-text{
+        font-size: 10px;
+        font-weight:600;
+        height:60px;
+        padding:5px 5px;
+        line-height: 1.5;
+    }
+
+    .uprise-form-content-link {
+        font-size: 12px;
+        font-weight:600;
+        height:30px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+    .uprise-form-content,
+    .uprise-form-content-bg{
+        height:60px;
+        margin-top: 30px;
+    }
+
+    .uprise-form-footer{
+        position: absolute;
+        left: 0;
+        bottom:0;
+        height:10px;
+    }
+}
+
+/*----------END UPRISE FORM----------*/
+
+/*-----------------TABLE-----------*/
+.server-align{
+    padding-left:4%;
+}
+/*--------------END TABLE--------------*/
+
+/*----------FOOTER---------------*/
+.footer-block-list{
+    padding-left:5%;
+}
+/*--------------END FOOTER--------------*/
